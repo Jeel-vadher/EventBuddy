@@ -35,7 +35,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 git token
-
-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
-
-git remote add origin https://github.com/Jeel-vadher/EventBuddy.git
