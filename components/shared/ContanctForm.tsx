@@ -59,22 +59,24 @@ export default function ContactForm() {
         <div className="flex flex-col gap-2">
           <label htmlFor="fullname">Full Name</label>
           <input
+          className="shadow-md px-6 py-2 border border-slate-300"
             onChange={handleFullnameChange}
             value={fullname}
             type="text"
             id="fullname"
-            placeholder="John Doe"
+            placeholder="Your Name"
           />
         </div>
 
         <div className="flex flex-col gap-2">
           <label htmlFor="email">Email</label>
           <input
+          className="shadow-md px-6 py-2 border border-slate-300"
             onChange={handleEmailChange}
             value={email}
             type="text"
             id="email"
-            placeholder="john@gmail.com"
+            placeholder="Your Email"
           />
         </div>
 
